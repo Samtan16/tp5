@@ -21,4 +21,8 @@ window.onload = function() {
     this.classList.toggle("tpShow");
   }
   
+  document.querySelector("#displayfunc #directions ol").innerHTML += "<li>375 degrees F</li>";
+  
 }
+
+// end window.onload 
