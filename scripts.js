@@ -3,10 +3,10 @@
 
 window.onload = function() {
   
-  document.querySelector("#header h1").classList.add("tp");
+  document.querySelector("#header").classList.add("tp");
   
-  document.querySelector("#header h1").onclick = function() {
-    this.classList.toggle("brown");
+  document.querySelector("#header").onclick = function() {
+    this.classList.toggle("orange");
   } 
   
   document.querySelector("#displayfunc #ingredients").onclick = function() {
