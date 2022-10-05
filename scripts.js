@@ -3,9 +3,9 @@
 
 window.onload = function() {
   
-  document.querySelector("#header").classList.add("tp");
+  document.querySelector("#header h1").classList.add("tp");
   
-  document.querySelector("#header").onclick = function() {
+  document.querySelector("#header h1").onclick = function() {
     this.classList.toggle("orange");
   } 
   
